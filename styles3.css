@@ -1,0 +1,349 @@
+/*bootstrap overrule*/
+
+*{
+    font-family: "Montserrat";
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+h3{
+    font-size: 40px !important;
+    font-weight: 500 !important;
+}
+
+h4{
+    font-size: 22px !important;
+    margin: 10px 0px !important;
+    font-weight: 500 !important;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+/*navbar*/
+
+.navbar-dark{
+    background-color:#ffffff;
+    height: 120px;
+}
+
+.navlink{
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+}
+
+.navlink:hover{
+    color: rgb(238,118,35,255);
+    border-bottom: 2px solid #04DEDF;
+}
+
+.logo span{
+    font-weight: 600;
+    color: #04DEDF;
+    text-decoration: none;
+}
+
+#initials{
+    color: #04DEDF;
+}
+
+.nav-line{
+    width: 100%;
+    height: 2px;
+    background-color: #232936;
+}
+
+/*landing*/
+
+.landing{
+    background-color: #0D1421;
+    height: 73vh;
+}
+
+.landing-content{
+    padding: 18vh 0;
+}
+
+.landing-title{
+    color: #04DEDF;
+    font-weight: bold;
+    text-align: right;
+}
+
+.landing-title h1{
+    font-size: 90px !important;
+    float: left;
+}
+
+#title{
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.landing-bar{
+    height: 100%;
+    width: 4px;
+    background-color: #636363;
+    margin: 0 auto;
+}
+
+
+.landing-icon{
+    text-align: right;
+}
+
+.btn-main{
+    background-color: transparent;
+    color: #04DEDF;
+    border: 2px solid #04DEDF;
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 10px 28px;
+    text-transform: uppercase;
+}
+
+.btn-dark-custom{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+
+.diagonal-bar{
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    background-color: #0D1421;
+    transform: skewY(-2.5deg);
+    margin-top: -100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.info-section-btn{
+    margin-top: 25px;
+}
+/*sections*/
+
+.section-title{
+    font-size: 24px;
+}
+
+.title-light{
+    color: rgb(255, 255, 255);
+}
+
+.section-bar{
+    width: 120px;
+    height: 2px;
+    background-color: #04DEDF;
+}
+
+.section-border{
+    background-color: #F9F9F9;
+    padding: 30px;
+    margin: 40px 0px;
+    border-radius: 4px;
+    text-transform: none;
+}
+
+.section p, .section h4, .section h3{
+    text-transform: none;
+}
+
+.profile-pic img{
+    width: 100%;
+    height: auto;
+}
+
+#bio{
+    margin: 30px 0px;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.icon i{
+    font-size: 22px;
+}
+
+.icon p{
+    display: inline;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.icon{
+    margin: 5px 0px;
+}
+
+.buisness-socials i{
+    background-color: #D3D3D3;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 8px;
+    color: white;
+    font-size: 22px;
+}
+
+/*projects*/
+
+#projects-bg{
+    background-color: #0D1421;
+}
+
+.project-item img{
+    width: 100%;
+    
+    border-radius: 4px 4px 0px 0px;
+}
+
+.project-items{
+    margin: 40px 0px;
+    font-size: 18px;
+}
+
+.project-desc{
+    background-color: white;
+    padding: 15px 10px;
+    border: 2px solid #D2D1D1;
+    border-top: none;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.project-item h5{
+    margin: 0;
+    font-weight: 600;
+}
+
+.project-item p{
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+}
+video {
+    display: block;
+    margin: 0 auto;
+  }
+.video-section {
+width: 50%;
+}
+/*contact*/
+
+.contact-bar{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+#contact-title{
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+
+#message-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info{
+    margin-top: 25px;
+}
+
+#message-form textarea{
+    height: 150px;
+    width: 600px;
+    resize: none;
+}
+
+.contact-desc p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-right: 25px;
+    margin: 20px 0px;
+}
+
+#contact label{
+    margin: 10px 0px;
+}
+
+.border-input{
+    border: 2px solid black;
+    border-radius: 4px;
+    text-transform: none;
+    padding: 2px;
+}
+
+#submit-form-btn{
+   width: 160px;
+    margin-top: 20px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: #0D1421;
+    padding: 40px 0px;
+}
+
+.footer-socials i{
+    font-size: 22px;
+    color: #04DEDF;
+    margin-right: 20px;
+}
+
+.buisness-socials i:hover{
+    background-color: #04DEDF;
+}
+
+.btn-dark-custom:hover{
+    background-color: #181818;
+    border-color: #181818;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 992px) {
+    .fa-rocket {
+        font-size: 150px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .landing-title h1 {
+        font-size: 16.5vw !important;
+    }
+    .btn-main{
+        font-size: 3.5vw;
+    }
+
+    .section h3{
+        font-size: 28px !important;
+    }
+
+    .section h4{
+        font-size: 20px !important;
+    }
+
+    .section p{
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+
+    .contact-desc p{
+        padding-right: 0 !important;
+    }
+}
