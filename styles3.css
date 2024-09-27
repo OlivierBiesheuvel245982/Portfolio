@@ -141,6 +141,17 @@ h4{
     padding-top: 40px; /* Adjust the value as needed */
 }
 
+.chappiefont {
+    font-style: normal;
+    text-transform: none;
+}
+
+/* Example CSS */
+.normal-text {
+    text-transform: none;
+}
+
+
 .section-title{
     font-size: 24px;
     color: rgb(255, 255, 255);
